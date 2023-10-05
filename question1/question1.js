@@ -1,4 +1,7 @@
-// es6-features.js
+//Student id-101392145
+//Student name- Uzma Khan
+
+// question1.js
 
 function lowerCaseWords(arr) {
     return new Promise((resolve, reject) => {
@@ -12,5 +15,15 @@ function lowerCaseWords(arr) {
     });
   }
   
-  module.exports = lowerCaseWords;
   
+  const mixedArray = [1, 'Apple', 'banana', 'Cherry', 2];
+  
+  lowerCaseWords(mixedArray)
+    .then((result) => {
+      console.log("Lowercased words:", result);
+    })
+    .catch((error) => {
+      console.error("Error:", error);
+    });
+  
+

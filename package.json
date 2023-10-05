@@ -1,10 +1,16 @@
+
+
 {
   "name": "101392145_comp3123_test1",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "question1/question1.js",
   "scripts": {
+    "start": "node question1/question1.js",
     "test": "echo \"Error: no test specified\" && exit 1"
+    
+    
   },
+  
   "keywords": [],
   "author": "",
   "license": "ISC",
